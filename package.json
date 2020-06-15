@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "ts-node src/client.ts",
         "start": "ts-node src/server.ts",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "codegen:download": "wget https://oss.sonatype.org/content/repositories/releases/io/swagger/swagger-codegen-cli/2.2.1/swagger-codegen-cli-2.2.1.jar",
+        "codegen": "java -jar swagger-codegen-cli-2.2.1.jar generate -i swagger.yaml -l typescript-node -o src"
     },
     "repository": {
         "type": "git",
