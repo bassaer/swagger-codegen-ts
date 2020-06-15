@@ -1,0 +1,30 @@
+{
+    "name": "swagger-codegen-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node src/client.ts",
+        "start": "ts-node src/server.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bassaer/swagger-codegen-ts.git"
+    },
+    "keywords": [],
+    "author": "Tsubasa Nakayama <app.nakayama@gmail.com> (https://bassaer.github.io/me/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bassaer/swagger-codegen-ts/issues"
+    },
+    "homepage": "https://github.com/bassaer/swagger-codegen-ts#readme",
+    "devDependencies": {
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.5"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.6",
+        "express": "^4.17.1"
+    }
+}
